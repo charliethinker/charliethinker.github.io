@@ -1,4 +1,123 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-16T16:17:12+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">朱成林的博客</title><subtitle>I&apos;m Zhu Chenglin. I live in Suzhou, China with my wife, two children.</subtitle><entry><title type="html">没有需求设计文档？对不起，拒绝开发！</title><link href="http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop.html" rel="alternate" type="text/html" title="没有需求设计文档？对不起，拒绝开发！" /><published>2017-03-15T10:20:00+08:00</published><updated>2017-03-15T10:20:00+08:00</updated><id>http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop</id><content type="html" xml:base="http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop.html"><![CDATA[<p>在很多软件公司，特别是一些创业型的团队中，对于这样的情景可能大家都很熟悉：项目经理或者产品经理（<strong>产品狗</strong>）口头或者简单记录一下软件产品的大致要做的功能，直接就让研发团队的兄弟（<strong>程序猿</strong>）去狂撸代码。然后他就去喝茶撩妹或者回家陪老婆了…</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-16T17:32:24+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">朱成林的博客</title><subtitle>I&apos;m Zhu Chenglin. I live in Suzhou, China with my wife, two children.</subtitle><entry><title type="html">项目如何做好任务分配</title><link href="http://localhost:4000/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/2017/04/26/how-to-allocate-task-effective.html" rel="alternate" type="text/html" title="项目如何做好任务分配" /><published>2017-04-26T10:20:00+08:00</published><updated>2017-04-26T10:20:00+08:00</updated><id>http://localhost:4000/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/2017/04/26/how-to-allocate-task-effective</id><content type="html" xml:base="http://localhost:4000/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/2017/04/26/how-to-allocate-task-effective.html"><![CDATA[<p><strong>TL;DR</strong></p>
+
+<ul>
+  <li>常见项目管理工具介绍</li>
+  <li>项目管理最重要的内容</li>
+  <li>谁来撰写以及分配任务</li>
+  <li>如何有效地分配任务</li>
+</ul>
+
+<h1 id="项目管理工具">项目管理工具</h1>
+
+<p>在我工作的这些年里，用过不少的项目管理系统：<a href="https://www.atlassian.com/software/jira">Jira</a>, <a href="https://products.office.com/en-us/project/project-and-portfolio-management-software">Microsoft Project</a>, <a href="https://trello.com/">Tello</a>, <a href="http://www.redmine.org/">Redmine</a> …</p>
+
+<p><img src="https://zhuchenglin-blog.oss-cn-shanghai.aliyuncs.com/2017-04-26/1-jira.png" alt="" /></p>
+
+<p><img src="https://zhuchenglin-blog.oss-cn-shanghai.aliyuncs.com/2017-04-26/2-trello.png" alt="" /></p>
+
+<p><img src="https://zhuchenglin-blog.oss-cn-shanghai.aliyuncs.com/2017-04-26/3-redmine.png" alt="" /></p>
+
+<h1 id="项目管理最重要的内容是什么">项目管理最重要的内容是什么？</h1>
+
+<p>用什么工具不是最重要的，重要的是要把工具真正用起来。功能再强大的工具你没有用起来，或者太复杂使用成本太高，那也是白搭！</p>
+
+<p><strong>往往工具越复杂，使用的成本就越高，运用到项目中的机率也越低</strong>。</p>
+
+<p>可以选择一个最简单的工具，而不要一上来就整一个号称“全宇宙第一”的“巨无霸”。</p>
+
+<p>工具不能成为给领导汇报的形式。这样只会浪费时间，增加毫无意义的管理成本。</p>
+
+<p>无论选择哪个工具，最基本的只需要包括这些：</p>
+
+<ul>
+  <li><strong>计划完成日期</strong> 该任务计划在哪一天完成。</li>
+  <li><strong>预期工时</strong> 细分后的任务要给出一个合理的预期工时，必须以<strong>小时</strong>为单位。</li>
+  <li><strong>实际完成日期</strong> 指定的任务实际完成时的日期。</li>
+  <li><strong>实际工时</strong> 该任务完成时实际所耗的工时。</li>
+  <li><strong>优先级</strong> 任务都应该有一个优先级，将影响别人的任务优先级设置为更高，避免团队其他成员”<strong>Waiting for you</strong>“。</li>
+</ul>
+
+<p>其中任务分配时的预期工时必须足够细，越细越好，一般控制在半天之内，最多不超过一天，不过这也增加了管理上的成本。这需要管理者作一个权衡。</p>
+
+<p>当然如果你们的团队是自带鸡血的，总是能完美收工的话，你只需要粗略地将一周的任务安排给他们，那就爽歪歪了。</p>
+
+<h1 id="谁来分配任务">谁来分配任务</h1>
+
+<blockquote>
+  <p>老板让你2个月开发出一个产品，研发吭哧吭哧地搞了2个月，到了第2个月的30号交给老板，老板很开心地打开系统，发现连TM登录都登录不了。</p>
+
+  <p>老板心情好的话，可能你会被狠K一顿；心情不好的话，你就得去人事部，结下最后的工资了，出门左转…</p>
+</blockquote>
+
+<p>造成这个问题的原因有两种：</p>
+
+<ol>
+  <li>
+    <p>老板催着你必须在2个月内完成。</p>
+
+    <p>这个好办，你只要跟老板讲两个字：<strong>尽量</strong>。如果老板回你两个字：<strong>必须！</strong>。你有两套方案，先进入疯狂加班模式，到第2个月中，发现还有80%尚未完成，启动<strong>Plan B</strong>，好好更新下简历！</p>
+  </li>
+  <li>
+    <p>任务分配者对任务的时间预估偏差太大。</p>
+  </li>
+</ol>
+
+<p>要想项目的分配尽可能地准确，任务分配者必须了解项目研发相关的技术，倒不是要非常熟练，至少有所了解。另外最好工作经验在6年以上。</p>
+
+<p>当然如果这个任务只是用来应付老板的，找过最闲的手下去做就可以了。</p>
+
+<h1 id="每周一开会过一下本周的任务">每周一开会过一下本周的任务</h1>
+
+<p>任务一般在细分后，在周一上午，团队在一起过一下每个人本周所要完成的任务功能点，这样有如下几个好处：</p>
+
+<ul>
+  <li>尽快摆脱”星期一综合症“。</li>
+</ul>
+
+<p><img src="https://zhuchenglin-blog.oss-cn-shanghai.aliyuncs.com/2017-04-26/4-monday-syndrome.jpeg" alt="" /></p>
+
+<ul>
+  <li>
+    <p>让大家了解彼此所做的事情，方便研发过程中的沟通。</p>
+  </li>
+  <li>
+    <p>了解一下自己本周要完成的任务，看看有哪些可能会遇到的坑，方便自己合理安排时间。</p>
+  </li>
+  <li>
+    <p>项目任务之间难免会有一些依赖关系。比如后台必须先写好接口，APP才能做获取服务器数据的工作，需要对任务进行优先级上的调整，避免“A等待B的现象”。</p>
+  </li>
+</ul>
+
+<h1 id="不要低估内外部沟通成本">不要低估内外部沟通成本</h1>
+
+<p>碰上项目需要对外跟客户进行沟通，那你就惨了。</p>
+
+<p>加上习惯性被忽视的内部沟通成本，产品经理、项目经理、研发经理、研发团队内部…</p>
+
+<p>对了，还有那可恶的销售人员，不知是不是喝完酒后跟用户说产品啥功能都有，1个月就可以交付使用。终于知道心中一万只羊驼奔腾而过是什么感受了。</p>
+
+<p>还有从来都是被遗忘的产品测试和调试时间，其实这是项目研发过程中耗在这上面的时间是很长的，甚至于超过编码时间。</p>
+
+<p>加上老板有事没事来看望你两眼，对你表示关心（<strong>其实是来催一下进度，看你有没有混日子。打断你的思路，你还要表示谢谢</strong>）。</p>
+
+<h1 id="不要高估程序员的效率">不要高估程序员的效率</h1>
+
+<p>在我工作的这些年里，说来忏愧，记不得哪个项目是真正意思上按时完成的！</p>
+
+<p>如果你的工作计划做得很细，以小时为单位的总预期工时可能还算准，但如果你是按一天8小时算的，不好意思，这个项目一定会延期！而且会延期双倍时间。</p>
+
+<p>你真认为员工真的像发动机一样，在8小时高速运转吗？基础上99.99%的公司不是（还有0.01%留给你们公司）。</p>
+
+<p>正常的有效工作时间只有8的一半：<strong>3小时</strong>！</p>
+
+<p>还有现在所想不到的”不可抗力因素“：员工恋爱了、失恋了、结婚了、吵架了、怀孕了、离职了…办公室突然断电了、断网了…</p>
+
+<p>在老板看来，办法无非两种：（其实这两种办法都不明智）</p>
+
+<ul>
+  <li><strong>加班</strong> 加班是最不明智的方法，常态的加班只能让程序员效率变低，最终的效率还不如正常下班的带来的效率高。当然项目进度很紧的话，短时间内的加班还是有必要的。</li>
+  <li><strong>加人</strong> “赶紧招一个补上”。天那！这也不是工厂，招一个新人的成本太高了，这兄弟啥时能上手啊，等上手的时候估计项目已经延期很久了。还要考虑一个老兵带新兵带来的”内耗”。</li>
+</ul>]]></content><author><name></name></author><category term="项目管理" /><summary type="html"><![CDATA[TL;DR]]></summary></entry><entry><title type="html">没有需求设计文档？对不起，拒绝开发！</title><link href="http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop.html" rel="alternate" type="text/html" title="没有需求设计文档？对不起，拒绝开发！" /><published>2017-03-15T10:20:00+08:00</published><updated>2017-03-15T10:20:00+08:00</updated><id>http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop</id><content type="html" xml:base="http://localhost:4000/frist-blog/2017/03/15/no-document-no-develop.html"><![CDATA[<p>在很多软件公司，特别是一些创业型的团队中，对于这样的情景可能大家都很熟悉：项目经理或者产品经理（<strong>产品狗</strong>）口头或者简单记录一下软件产品的大致要做的功能，直接就让研发团队的兄弟（<strong>程序猿</strong>）去狂撸代码。然后他就去喝茶撩妹或者回家陪老婆了…</p>
 
 <p>这种撸起袖子就开干的方式，看似简单高效，便于直接沟通，能够快速迭代。却不知，没有一份正式且实时更新的功能需求设计文档，会付出三四倍的代价来弥补。</p>
 
