@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 朱成林的个人博客
+title: 朱成林的博客
 email: charlie.zhu@collietech.com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm Zhu Chenglin. I live in Suzhou, China with my wife, two children.
