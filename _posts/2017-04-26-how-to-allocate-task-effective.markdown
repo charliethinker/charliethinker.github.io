@@ -2,7 +2,6 @@
 layout: post
 title:  "项目如何做好任务分配"
 date:   2017-04-26 10:20:00 +0800
-categories: 项目管理
 ---
 
 **TL;DR**
