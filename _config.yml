@@ -21,7 +21,7 @@
 title: 朱成林的博客
 email: # charlie.zhu@collietech.com
 description: >- # this means to ignore newlines until "baseurl:"
-  尘世间一个迷途小书童
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zhuchenglin.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: # jekyllrb
